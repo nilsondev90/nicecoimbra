@@ -6,9 +6,9 @@ const Footer = () => {
 
     return (
 
-        <footer className="w-full bg-white p-8">
+        <footer className="w-full bg-white p-8 rounded-xl border border-white bg-white/75 py-4 px-6 shadow-lg shadow-black/5 saturate-200 backdrop-blur-sm">
             {/* <a href="">&copy; {currentYear} --- ano atual</a> */}
-            <div className="flex flex-row flex-wrap items-center justify-center gap-y-6 gap-x-12 bg-white text-center md:justify-between">
+            <div className="flex flex-row flex-wrap items-center justify-center gap-y-6 gap-x-12 text-center md:justify-between">
                 <img src="https://docs.material-tailwind.com/img/logo-ct-dark.png" alt="logo-ct" className="w-10" />
                 <ul className="flex flex-wrap items-center gap-y-2 gap-x-8">
                     <li>

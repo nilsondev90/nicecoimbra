@@ -3,7 +3,7 @@ import { Typography, Card, CardBody } from "@material-tailwind/react";
 const Sobre = () => {
     return (
         <div className="mt-5">
-            <Card className="mt-6">
+            <Card className="mt-6 rounded-xl border border-white bg-white/75 py-4 px-6 shadow-lg shadow-black/5 saturate-200 backdrop-blur-sm">
                 <CardBody>
                     <Typography variant="h2">Sobre o Método VFP</Typography>
                     <Typography variant="lead">
@@ -22,7 +22,7 @@ const Sobre = () => {
                         Sendo assim, muitas vezes tendemos a agir no “piloto automático”. E isso acaba por criar padrões rígidos na forma de pensar, sentir e agir relacionados a crenças centrais de desamor, desamparo, desvalor, fracasso, incapacidade, entre outras.
                     </Typography>
                 </CardBody>
-                </Card>
+            </Card>
         </div>
     )
 }

@@ -21,8 +21,8 @@ function CheckIcon() {
 
 const Beneficios = () => {
     return (
-        <div className="mt-5">
-            <Card className="mt-6">
+        <div className="mt-5 ">
+            <Card className="mt-6 rounded-xl border border-white bg-white/75 py-4 px-6 shadow-lg shadow-black/5 saturate-200 backdrop-blur-sm">
                 <CardBody>
                     <Typography variant="h3">Benefícios do Método VFP</Typography>
                     <CardBody className="p-0">

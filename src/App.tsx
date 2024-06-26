@@ -23,9 +23,9 @@ function App() {
         <SliderCentral />
       </div>
 
-      <div className="w-full pl-10 pr-10">
+      <div className="w-full">
         {/* <div className="mx-auto max-w-full py-12"> */}
-        <div className="mx-auto max-w-screen-lg">
+        <div className="mx-auto max-w-screen-2xl">
           <Sobre />
 
                     

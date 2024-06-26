@@ -8,6 +8,8 @@ import {
     IconButton,
 } from "@material-tailwind/react";
 
+import LogoNiceCoimbra from '../assets/logo_nice_coimbra.svg';
+
 
 const Header = () => {
 
@@ -81,9 +83,11 @@ const Header = () => {
                 <Typography
                     as="a"
                     href="#"
-                    className="mr-4 cursor-pointer py-1.5 font-medium"
+                    className="mr-4 cursor-pointer py-1.5 font-medium inline-flex items-center"
                 >
-                    Nice Coimbra
+                    <img className="h-5" src={LogoNiceCoimbra} alt="Logo Nice Coimbra" />
+                    <span className='pl-3'>Nice Coimbra</span>
+                     
                 </Typography>
                 <div className="flex items-center gap-4">
                     <div className="mr-4 hidden lg:block">{navList}</div>

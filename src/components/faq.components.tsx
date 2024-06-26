@@ -33,7 +33,7 @@ const FAQ = () => {
     const handleOpen = (value: number) => setOpen(open === value ? 0 : value);
 
     return (
-        <>
+        <div className='pl-5 pr-5'>
             <Typography  variant="h2" className="mb-4 mt-4">
                 Perguntas Frequentes
             </Typography>
@@ -59,7 +59,7 @@ const FAQ = () => {
                     Resposta 03
                 </AccordionBody>
             </Accordion>
-        </>
+        </div>
     );
 }
 

@@ -1,11 +1,11 @@
 import { Typography } from "@material-tailwind/react";
 
-const Footer = () => {
+const FooterVFP = () => {
 
     //const currentYear = new Date().getFullYear();
 
     return (
-        <footer className="w-full bg-white p-8 rounded-xl border border-white bg-white/75 py-4 px-6 shadow-lg shadow-black/5 saturate-200 backdrop-blur-sm">
+        <footer className="w-full bg-black p-8 rounded-xl border border-white bg-black/75 py-4 px-6 shadow-lg shadow-black/5 saturate-200 backdrop-blur-sm">
             {/* <a href="">&copy; {currentYear} --- ano atual</a> */}
             <div className="flex flex-row flex-wrap items-center justify-center gap-y-6 gap-x-12 text-center md:justify-between">
                 <img src="https://docs.material-tailwind.com/img/logo-ct-dark.png" alt="logo-ct" className="w-10" />
@@ -15,7 +15,7 @@ const Footer = () => {
                             as="a"
                             href="#"
                             color="blue-gray"
-                            className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500"
+                            className="font-normal text-gray-500 transition-colors hover:text-blue-500 focus:text-blue-500"
                         >
                             Sobre nós
                         </Typography>
@@ -25,7 +25,7 @@ const Footer = () => {
                             as="a"
                             href="#"
                             color="blue-gray"
-                            className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500"
+                            className="font-normal text-gray-500 transition-colors hover:text-blue-500 focus:text-blue-500"
                         >
                             Licença
                         </Typography>
@@ -35,7 +35,7 @@ const Footer = () => {
                             as="a"
                             href="#"
                             color="blue-gray"
-                            className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500"
+                            className="font-normal text-gray-500 transition-colors hover:text-blue-500 focus:text-blue-500"
                         >
                             Contate-nos
                         </Typography>
@@ -43,15 +43,15 @@ const Footer = () => {
                 </ul>
             </div>
             <div className="mt-12 flex flex-col items-center justify-center py-4">
-                <div className="flex flex-col items-center gap-4 text-blue-gray-900">
+                <div className="flex flex-col items-center gap-4 text-gray-500">
                     <Typography
                         variant="small"
-                        className="mb-4 text-center font-normal text-blue-gray-900"
+                        className="mb-4 text-center font-normal text-gray-500"
                     >
-                        <a href="https://material-tailwind.com/">Siga-nos em nossas redes socias</a>
+                        <a >Siga-nos em nossas redes socias</a>
                     </Typography>
                     <div className="flex gap-4">
-                        <Typography as="a" href="https://www.instagram.com/psicologanicecoimbra/" target="_blank" className="opacity-80 transition-opacity hover:opacity-100">
+                        <Typography as="a" href="https://www.instagram.com/psicologanicecoimbra/" target="_blank" className="opacity-80 transition-opacity hover:text-blue-500">
                             <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                                 <path
                                     fillRule="evenodd"
@@ -60,7 +60,7 @@ const Footer = () => {
                                 />
                             </svg>
                         </Typography>
-                        <Typography as="a" href="https://www.facebook.com/nice.coimbra.94" target="_blank" className="opacity-80 transition-opacity hover:opacity-100">
+                        <Typography as="a" href="https://www.facebook.com/nice.coimbra.94" target="_blank" className="opacity-80 transition-opacity hover:text-blue-500">
                             <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                                 <path
                                     fillRule="evenodd"
@@ -69,7 +69,7 @@ const Footer = () => {
                                 />
                             </svg>
                         </Typography>
-                        <Typography as="a" href="https://linktr.ee/PSI_NICECOIMBRA_SOLUCOES" target="_blank" className="opacity-80 transition-opacity hover:opacity-100">
+                        <Typography as="a" href="https://linktr.ee/PSI_NICECOIMBRA_SOLUCOES" target="_blank" className="opacity-80 transition-opacity hover:text-blue-500">
                             <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                                 <path
                                     fillRule="evenodd"
@@ -82,11 +82,11 @@ const Footer = () => {
                 </div>
             </div>
             <hr className="my-8 border-blue-gray-50" />
-            <Typography color="blue-gray" className="text-center font-normal">
+            <Typography className="text-center font-normal text-gray-500">
                 &copy; Nice Coimbra
             </Typography>
         </footer>
     )
 }
 
-export default Footer
+export default FooterVFP

@@ -6,7 +6,7 @@ const Home = () => {
     return (
         <>
             <Header />
-            <div className="w-full">
+            <div className="w-full" style={{background: "#f8ffff"}}>
                 <div className="mx-auto max-w-screen-2xl">
                     <SobreHome />
                 </div>

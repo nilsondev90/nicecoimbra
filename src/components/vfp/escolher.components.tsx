@@ -3,7 +3,7 @@ import { Carousel, Typography, Button, CardBody, Card } from "@material-tailwind
 const Escolher = () => {
     return (
         <div className="mt-5 pl-2 pr-2">
-            <Card className="mt-6 rounded-xl border border-white bg-white/75 py-4 px-6 shadow-lg shadow-black/5 saturate-200 backdrop-blur-sm">
+            <Card className="mt-6 rounded-xl border border-white bg-black/75 py-4 px-6 shadow-lg shadow-black/5 saturate-200 backdrop-blur-sm">
                 <CardBody>
                     <Typography variant="h3">Por que Escolher o Método VFP?</Typography>
                     <Typography variant="paragraph">

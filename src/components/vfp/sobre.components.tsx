@@ -3,9 +3,9 @@ import { Typography, Card, CardBody } from "@material-tailwind/react";
 const Sobre = () => {
     return (
         <div className="mt-5 pl-2 pr-2">
-            <Card className="mt-6 rounded-xl border border-white bg-white/75 py-4 px-6 shadow-lg shadow-black/5 saturate-200 backdrop-blur-sm">
+            <Card className="mt-6 rounded-xl border border-white bg-black/75 py-4 px-6 shadow-lg shadow-black/5 saturate-200 backdrop-blur-sm">
                 <CardBody>
-                    <Typography variant="h2" className="text-black">Método VFP</Typography>
+                    <Typography variant="h2" className="text-blue-500">Método VFP</Typography>
                     <Typography variant="paragraph">
                         Liberte sua vida com o
                         Método VFP.

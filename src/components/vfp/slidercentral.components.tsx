@@ -42,35 +42,34 @@ const SliderCentral = () => {
                             color="white"
                             className="mb-12 opacity-80"
                         >
-
                             <CardBody className="p-0">
                                 <ul className="flex flex-col gap-4">
-                                    <li className="flex items-center gap-4 pt-2">Libertando Sua Mente para uma Vida Plena e Significativa</li>
-                                    <li className="flex items-center gap-4">
+                                    <li className="flex items-start gap-4 pt-2">Libertando Sua Mente para uma Vida Plena e Significativa</li>
+                                    <li className="flex items-start gap-1">
                                         <span className="rounded-full border border-white/20 bg-white/20 p-1">
                                             <CheckIcon />
                                         </span>
                                         <Typography className="font-normal">Melhora significativa na qualidade de vida</Typography>
                                     </li>
-                                    <li className="flex items-center gap-4">
+                                    <li className="flex items-start gap-1">
                                         <span className="rounded-full border border-white/20 bg-white/20 p-1">
                                             <CheckIcon />
                                         </span>
                                         <Typography className="font-normal">Redução de sintomas de transtornos mentais</Typography>
                                     </li>
-                                    <li className="flex items-center gap-4">
+                                    <li className="flex items-start gap-1">
                                         <span className="rounded-full border border-white/20 bg-white/20 p-1">
                                             <CheckIcon />
                                         </span>
                                         <Typography className="font-normal">Aumento do bem-estar e satisfação pessoal</Typography>
                                     </li>
-                                    <li className="flex items-center gap-4">
+                                    <li className="flex items-start gap-1">
                                         <span className="rounded-full border border-white/20 bg-white/20 p-1">
                                             <CheckIcon />
                                         </span>
                                         <Typography className="font-normal">Desenvolvimento de valores bem definidos</Typography>
                                     </li>
-                                    <li className="flex items-center gap-4">
+                                    <li className="flex items-start gap-1">
                                         <span className="rounded-full border border-white/20 bg-white/20 p-1">
                                             <CheckIcon />
                                         </span>

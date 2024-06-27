@@ -2,16 +2,13 @@ import { Typography, Card, CardBody } from "@material-tailwind/react";
 
 const Sobre = () => {
     return (
-        <div className="mt-5">
+        <div className="mt-5 pl-2 pr-2">
             <Card className="mt-6 rounded-xl border border-white bg-white/75 py-4 px-6 shadow-lg shadow-black/5 saturate-200 backdrop-blur-sm">
                 <CardBody>
-                    <Typography variant="h2">Sobre o Método VFP</Typography>
-                    <Typography variant="lead">
-                        O Autoconhecimento Liberta!
-                    </Typography>
+                    <Typography variant="h2" className="text-black">Método VFP</Typography>
                     <Typography variant="paragraph">
-                        Foi pensando nisso que desenvolvi o
-                        Método VFP para libertar sua vida.
+                        Liberte sua vida com o
+                        Método VFP.
                     </Typography>
                     <Typography variant="h3">Quem somos? Já pararam para pensar nisso?</Typography>
                     <Typography variant="paragraph">

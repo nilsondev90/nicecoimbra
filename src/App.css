@@ -14,7 +14,8 @@ body {
   width: 100%;
   font-family: 'Inter', sans-serif;
   background-repeat: no-repeat;
-  background: linear-gradient(180deg, rgba(234,247,255,1) 0%, rgba(253,254,255,1) 35%, rgba(190,244,255,1) 100%) fixed;
+  background: #f8ffff;
+  /* background: linear-gradient(180deg, rgba(234, 247, 255, 1) 0%, rgba(253, 254, 255, 1) 35%, rgba(190, 244, 255, 1) 100%) fixed; */
 }
 
 body {
